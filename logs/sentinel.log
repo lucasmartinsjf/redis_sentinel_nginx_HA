@@ -1,0 +1,303 @@
+8:X 25 Sep 2020 18:11:40.330 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 18:11:40.330 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 18:11:40.330 # Configuration loaded
+9:X 25 Sep 2020 18:11:40.332 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:11:40.336 # Sentinel ID is 545d26e5216e117b723270aad99f25a148fc9766
+9:X 25 Sep 2020 18:11:40.336 # +monitor master docker-cluster 172.18.0.2 6379 quorum 2
+8:X 25 Sep 2020 18:11:40.414 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 18:11:40.414 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 18:11:40.414 # Configuration loaded
+9:X 25 Sep 2020 18:11:40.420 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:11:40.423 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+9:X 25 Sep 2020 18:11:40.423 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=9, just started
+9:X 25 Sep 2020 18:11:40.423 # Configuration loaded
+10:X 25 Sep 2020 18:11:40.425 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:11:40.436 # Sentinel ID is 3ac157cafe3ac8b1960f468582fdab656a5b3ca1
+9:X 25 Sep 2020 18:11:40.436 # +monitor master docker-cluster 172.18.0.2 6379 quorum 2
+10:X 25 Sep 2020 18:11:40.436 # Sentinel ID is 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226
+10:X 25 Sep 2020 18:11:40.436 # +monitor master docker-cluster 172.18.0.2 6379 quorum 2
+9:X 25 Sep 2020 18:11:40.437 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:40.438 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:40.439 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:40.444 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:43.439 # +sdown master docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:43.536 # +sdown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:43.547 # +sdown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:43.623 # +sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:43.623 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:43.668 # +sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:43.668 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:55.407 * +sentinel sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:55.407 * +sentinel sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:55.478 # -sdown master docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:55.516 * +sentinel sentinel 3ac157cafe3ac8b1960f468582fdab656a5b3ca1 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:55.516 * +sentinel sentinel 3ac157cafe3ac8b1960f468582fdab656a5b3ca1 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:55.519 * +sentinel sentinel 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:55.519 * +sentinel sentinel 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:55.586 # -sdown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:55.602 # -sdown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:55.703 # -sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:11:55.703 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:56.763 # -sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:11:56.763 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:12:05.648 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:12:05.648 * +convert-to-slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:12:15.483 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:12:15.487 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:13:35.787 # +sdown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:35.796 # +sdown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:35.872 # +odown master docker-cluster 172.18.0.2 6379 #quorum 2/2
+10:X 25 Sep 2020 18:13:35.872 # +new-epoch 1
+10:X 25 Sep 2020 18:13:35.872 # +try-failover master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:35.875 # +vote-for-leader 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 1
+10:X 25 Sep 2020 18:13:35.876 # +sdown sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:13:35.878 # +new-epoch 1
+9:X 25 Sep 2020 18:13:35.880 # +vote-for-leader 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 1
+10:X 25 Sep 2020 18:13:35.880 # 3ac157cafe3ac8b1960f468582fdab656a5b3ca1 voted for 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 1
+9:X 25 Sep 2020 18:13:35.925 # +sdown sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:35.960 # +elected-leader master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:35.960 # +failover-state-select-slave master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:36.036 # +selected-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:36.036 * +failover-state-send-slaveof-noone slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:36.107 * +failover-state-wait-promotion slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:13:36.922 # +odown master docker-cluster 172.18.0.2 6379 #quorum 2/2
+9:X 25 Sep 2020 18:13:36.922 # Next failover delay: I will not start a failover before Fri Sep 25 18:13:46 2020
+10:X 25 Sep 2020 18:13:36.945 # +promoted-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:36.945 # +failover-state-reconf-slaves master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:36.994 * +slave-reconf-sent slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:13:36.994 # +config-update-from sentinel 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:13:36.995 # +switch-master docker-cluster 172.18.0.2 6379 172.18.0.4 6379
+9:X 25 Sep 2020 18:13:36.995 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:13:36.995 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:13:37.993 * +slave-reconf-inprog slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:37.993 * +slave-reconf-done slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:13:38.009 # +sdown slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:13:38.050 # -odown master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:38.050 # +failover-end master docker-cluster 172.18.0.2 6379
+10:X 25 Sep 2020 18:13:38.050 # +switch-master docker-cluster 172.18.0.2 6379 172.18.0.4 6379
+10:X 25 Sep 2020 18:13:38.050 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:13:38.050 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:13:39.113 # +sdown slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+8:X 25 Sep 2020 18:15:15.716 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 18:15:15.716 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 18:15:15.716 # Configuration loaded
+9:X 25 Sep 2020 18:15:15.718 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:15:15.721 # Sentinel ID is cff5cdd456c5ceebc263e52de4d2aa7e9fa6b7da
+9:X 25 Sep 2020 18:15:15.721 # +monitor master docker-cluster 172.18.0.2 6379 quorum 2
+9:X 25 Sep 2020 18:15:16.207 * +sentinel sentinel 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:15:16.210 # +new-epoch 1
+9:X 25 Sep 2020 18:15:16.210 # +config-update-from sentinel 0f97c3c1c5f8a3fd3bc81ace282df97efb5ab226 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 18:15:16.210 # +switch-master docker-cluster 172.18.0.2 6379 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:16.210 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:15:16.231 # -sdown slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:15:16.231 # -sdown sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:16.398 * +sentinel sentinel 3ac157cafe3ac8b1960f468582fdab656a5b3ca1 172.18.0.3 26379 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:16.422 # -sdown slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:16.422 # -sdown sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:15:17.737 * +sentinel-invalid-addr sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:17.737 * +sentinel-invalid-addr sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 26379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:15:17.737 * +sentinel sentinel cff5cdd456c5ceebc263e52de4d2aa7e9fa6b7da 172.18.0.2 26379 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:17.737 * +sentinel sentinel cff5cdd456c5ceebc263e52de4d2aa7e9fa6b7da 172.18.0.2 26379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:15:18.251 # +sdown sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 0 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:18.429 # +sdown sentinel 545d26e5216e117b723270aad99f25a148fc9766 172.18.0.2 0 @ docker-cluster 172.18.0.4 6379
+9:X 25 Sep 2020 18:15:25.786 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.4 6379
+10:X 25 Sep 2020 18:15:26.261 * +convert-to-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.4 6379
+8:X 25 Sep 2020 18:22:03.843 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 18:22:03.843 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 18:22:03.843 # Configuration loaded
+9:X 25 Sep 2020 18:22:03.845 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:22:03.849 # Sentinel ID is 5254d215f71e79ab6027ebb499cc00c5f765c7d0
+9:X 25 Sep 2020 18:22:03.849 # +monitor master docker-cluster 172.18.0.3 6379 quorum 2
+8:X 25 Sep 2020 18:22:03.930 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 18:22:03.930 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 18:22:03.931 # Configuration loaded
+9:X 25 Sep 2020 18:22:03.932 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:22:03.942 # Sentinel ID is 770caf6cda8d7b07e861eea7cb7280202cb4efb7
+9:X 25 Sep 2020 18:22:03.942 # +monitor master docker-cluster 172.18.0.3 6379 quorum 2
+8:X 25 Sep 2020 18:22:03.971 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 18:22:03.972 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 18:22:03.972 # Configuration loaded
+9:X 25 Sep 2020 18:22:03.973 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 18:22:03.977 # Sentinel ID is cba6ffdf2e5482a1674f42ec60b328ef33d00b60
+9:X 25 Sep 2020 18:22:03.977 # +monitor master docker-cluster 172.18.0.3 6379 quorum 2
+9:X 25 Sep 2020 18:22:04.860 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:04.952 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:04.953 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:04.955 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:04.960 # -sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:05.053 # -sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:06.953 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:07.044 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:07.080 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:07.144 # +sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:07.144 # +sdown slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.008 * +sentinel sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.063 # -sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.102 * +sentinel sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.102 * +sentinel sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.142 * +sentinel sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.142 * +sentinel sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.157 # -sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.196 # -sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.258 # -sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:20.258 # -sdown slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:22.075 * +sentinel sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:30.234 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:30.234 * +convert-to-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:40.077 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:40.079 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:40.213 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 18:22:40.216 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:26:04.290 * +convert-to-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:26:04.291 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:26:54.414 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:26:54.414 * +convert-to-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:27:44.029 # +sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:27:44.062 # +sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:27:44.062 # +sdown sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:27:44.100 # +sdown sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+8:X 25 Sep 2020 19:28:55.515 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 19:28:55.515 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 19:28:55.515 # Configuration loaded
+9:X 25 Sep 2020 19:28:55.517 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 19:28:55.520 # Sentinel ID is f5bbd4da5085f0bdef47a2014d09800e7a6e08c0
+9:X 25 Sep 2020 19:28:55.520 # +monitor master docker-cluster 172.18.0.3 6379 quorum 2
+9:X 25 Sep 2020 19:28:55.521 * +sentinel sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.523 * +reboot slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.524 * +reboot slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.525 * +sentinel sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.529 * +slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.587 # -sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.587 # -sdown sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.618 # -sdown slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:55.618 # -sdown sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:57.518 * +sentinel-invalid-addr sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:57.518 * +sentinel-invalid-addr sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:57.518 * +sentinel sentinel f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:57.518 * +sentinel sentinel f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:57.596 # +sdown sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 0 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:28:57.606 # +sdown sentinel 770caf6cda8d7b07e861eea7cb7280202cb4efb7 172.18.0.4 0 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:29:00.703 * +fix-slave-config slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:29.356 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:35.646 * +convert-to-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:36.005 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:49.856 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:49.856 # +sdown sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:49.921 # +sdown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:49.921 # +sdown sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:50.022 # +odown master docker-cluster 172.18.0.3 6379 #quorum 2/2
+9:X 25 Sep 2020 19:31:50.022 # +new-epoch 1
+9:X 25 Sep 2020 19:31:50.022 # +try-failover master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:50.025 # +vote-for-leader 5254d215f71e79ab6027ebb499cc00c5f765c7d0 1
+9:X 25 Sep 2020 19:31:50.027 # +new-epoch 1
+9:X 25 Sep 2020 19:31:50.029 # +vote-for-leader 5254d215f71e79ab6027ebb499cc00c5f765c7d0 1
+9:X 25 Sep 2020 19:31:50.029 # f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 voted for 5254d215f71e79ab6027ebb499cc00c5f765c7d0 1
+9:X 25 Sep 2020 19:31:50.976 # +odown master docker-cluster 172.18.0.3 6379 #quorum 2/2
+9:X 25 Sep 2020 19:31:50.976 # Next failover delay: I will not start a failover before Fri Sep 25 19:32:00 2020
+9:X 25 Sep 2020 19:31:55.265 # -failover-abort-not-elected master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:31:55.323 # Next failover delay: I will not start a failover before Fri Sep 25 19:32:00 2020
+9:X 25 Sep 2020 19:32:00.309 # +new-epoch 2
+9:X 25 Sep 2020 19:32:00.309 # +try-failover master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:00.312 # +vote-for-leader 5254d215f71e79ab6027ebb499cc00c5f765c7d0 2
+9:X 25 Sep 2020 19:32:00.314 # +new-epoch 2
+9:X 25 Sep 2020 19:32:00.316 # +vote-for-leader 5254d215f71e79ab6027ebb499cc00c5f765c7d0 2
+9:X 25 Sep 2020 19:32:00.316 # f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 voted for 5254d215f71e79ab6027ebb499cc00c5f765c7d0 2
+9:X 25 Sep 2020 19:32:00.406 # Next failover delay: I will not start a failover before Fri Sep 25 19:32:10 2020
+9:X 25 Sep 2020 19:32:06.185 # -failover-abort-not-elected master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:06.251 # Next failover delay: I will not start a failover before Fri Sep 25 19:32:11 2020
+9:X 25 Sep 2020 19:32:10.774 # +new-epoch 3
+9:X 25 Sep 2020 19:32:10.774 # +try-failover master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:10.777 # +vote-for-leader f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 3
+9:X 25 Sep 2020 19:32:10.779 # +new-epoch 3
+9:X 25 Sep 2020 19:32:10.781 # +vote-for-leader f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 3
+9:X 25 Sep 2020 19:32:10.782 # 5254d215f71e79ab6027ebb499cc00c5f765c7d0 voted for f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 3
+9:X 25 Sep 2020 19:32:10.787 # Next failover delay: I will not start a failover before Fri Sep 25 19:32:20 2020
+9:X 25 Sep 2020 19:32:10.867 # +elected-leader master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:10.867 # +failover-state-select-slave master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:10.933 # +selected-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:10.934 * +failover-state-send-slaveof-noone slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:11.024 * +failover-state-wait-promotion slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:11.826 # +promoted-slave slave 172.18.0.2:6379 172.18.0.2 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:11.826 # +failover-state-reconf-slaves master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:11.890 * +slave-reconf-sent slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:11.890 # +config-update-from sentinel f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 172.18.0.4 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:11.890 # +switch-master docker-cluster 172.18.0.3 6379 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:11.890 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:11.890 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:12.830 * +slave-reconf-inprog slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:12.830 * +slave-reconf-done slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:12.895 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:12.901 # -odown master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:12.902 # +failover-end master docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:32:12.902 # +switch-master docker-cluster 172.18.0.3 6379 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:12.902 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:12.902 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:32:13.918 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+8:X 25 Sep 2020 19:34:50.587 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 19:34:50.587 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 19:34:50.587 # Configuration loaded
+9:X 25 Sep 2020 19:34:50.588 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 19:34:50.592 # Sentinel ID is b502e47099e1bbc1879b7d73059876b1c86c8047
+9:X 25 Sep 2020 19:34:50.592 # +monitor master docker-cluster 172.18.0.3 6379 quorum 2
+9:X 25 Sep 2020 19:34:51.391 * +sentinel sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:34:51.394 # +new-epoch 3
+9:X 25 Sep 2020 19:34:51.394 # +config-update-from sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.3 6379
+9:X 25 Sep 2020 19:34:51.394 # +switch-master docker-cluster 172.18.0.3 6379 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:51.395 * +slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:51.463 * +sentinel sentinel f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:51.467 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:51.467 # -sdown sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:51.534 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:51.534 # -sdown sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:52.642 * +sentinel-invalid-addr sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:52.642 * +sentinel-invalid-addr sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:52.642 * +sentinel sentinel b502e47099e1bbc1879b7d73059876b1c86c8047 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:52.642 * +sentinel sentinel b502e47099e1bbc1879b7d73059876b1c86c8047 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:53.470 # +sdown sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 0 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:34:53.609 # +sdown sentinel cba6ffdf2e5482a1674f42ec60b328ef33d00b60 172.18.0.3 0 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:00.626 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:01.410 * +convert-to-slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:15.903 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:16.021 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:16.618 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:16.672 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:24.824 * +convert-to-slave slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:35:30.852 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:45:52.907 # +sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:45:52.907 # +sdown sentinel b502e47099e1bbc1879b7d73059876b1c86c8047 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:45:53.034 # +sdown master docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:45:53.034 # +sdown sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+8:X 25 Sep 2020 19:46:48.960 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 19:46:48.960 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 19:46:48.960 # Configuration loaded
+9:X 25 Sep 2020 19:46:48.961 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 19:46:48.966 # Sentinel ID is b948f10b0283b793a69ec9ff06ed21ae4fecc8f7
+9:X 25 Sep 2020 19:46:48.966 # +monitor master docker-cluster 172.18.0.2 6379 quorum 2
+9:X 25 Sep 2020 19:46:53.411 * +reboot master docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:46:53.411 * +sentinel sentinel f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:46:53.414 # +new-epoch 3
+9:X 25 Sep 2020 19:46:53.472 # -sdown master docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:46:53.472 # -sdown sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:46:55.029 * +sentinel-invalid-addr sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:46:55.029 * +sentinel sentinel b948f10b0283b793a69ec9ff06ed21ae4fecc8f7 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:46:55.479 # +sdown sentinel 5254d215f71e79ab6027ebb499cc00c5f765c7d0 172.18.0.2 0 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:00.269 * +convert-to-slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:09.898 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+8:X 25 Sep 2020 19:48:52.850 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8:X 25 Sep 2020 19:48:52.850 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=8, just started
+8:X 25 Sep 2020 19:48:52.850 # Configuration loaded
+9:X 25 Sep 2020 19:48:52.854 * Running mode=sentinel, port=26379.
+9:X 25 Sep 2020 19:48:52.856 # Sentinel ID is 35f98d8f301cefe2e2696894a7d271d632180490
+9:X 25 Sep 2020 19:48:52.856 # +monitor master docker-cluster 172.18.0.2 6379 quorum 2
+9:X 25 Sep 2020 19:48:52.857 * +sentinel sentinel f5bbd4da5085f0bdef47a2014d09800e7a6e08c0 172.18.0.4 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:52.860 * +reboot slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:52.862 # +new-epoch 3
+9:X 25 Sep 2020 19:48:52.863 * +slave slave 172.18.0.4:6379 172.18.0.4 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:52.901 # -sdown slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:52.901 # -sdown sentinel b502e47099e1bbc1879b7d73059876b1c86c8047 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:53.033 * +sentinel sentinel b948f10b0283b793a69ec9ff06ed21ae4fecc8f7 172.18.0.2 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:54.889 * +sentinel-invalid-addr sentinel b502e47099e1bbc1879b7d73059876b1c86c8047 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:54.889 * +sentinel sentinel 35f98d8f301cefe2e2696894a7d271d632180490 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:54.889 * +sentinel sentinel 35f98d8f301cefe2e2696894a7d271d632180490 172.18.0.3 26379 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:54.939 # +sdown sentinel b502e47099e1bbc1879b7d73059876b1c86c8047 172.18.0.3 0 @ docker-cluster 172.18.0.2 6379
+9:X 25 Sep 2020 19:48:58.054 * +fix-slave-config slave 172.18.0.3:6379 172.18.0.3 6379 @ docker-cluster 172.18.0.2 6379
